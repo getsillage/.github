@@ -8,7 +8,7 @@
   Self-hosted · Single-user · Open source
 </p>
 
-Sillage is a self-hosted, single-user space for capturing everyday records, revisiting history, and asking questions grounded in your own notes.
+Self-hosted, single-user space for private records, history review, and AI answers grounded in your own notes.
 
 Write in Markdown with images and files. Browse through lists, a calendar, and search. Optionally configure your own Anthropic- or OpenAI-compatible endpoint for summaries and source-grounded answers. Web and Android clients, in English and 简体中文.
 
