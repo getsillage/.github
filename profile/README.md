@@ -31,6 +31,21 @@ No multi-user collaboration, no public profiles, no official hosted service — 
 - [Engineering governance](https://github.com/getsillage/sillage/blob/main/docs/development/governance.md) (verification, contribution tracks, standards registry)
 - License: [MIT](https://github.com/getsillage/sillage/blob/main/LICENSE)
 
+## Brand assets
+
+| File | Use |
+| --- | --- |
+| [assets/org-avatar-1024.png](assets/org-avatar-1024.png) | GitHub organization profile picture (recommended upload) |
+| [assets/org-avatar-512.png](assets/org-avatar-512.png) | Same mark at 512×512 (matches product `icon-512.png`) |
+
+Source: product icon from [sillage `web/public/icon-512.png`](https://github.com/getsillage/sillage/blob/main/web/public/icon-512.png) (trail + amber star on black).
+
+To set the org avatar (GitHub has no public API for this):
+
+1. Open [Organization profile settings](https://github.com/organizations/getsillage/settings/profile)
+2. **Profile picture** → upload `assets/org-avatar-1024.png`
+3. Confirm / save
+
 ## Org notes
 
 - **Product norms and CI live in [sillage](https://github.com/getsillage/sillage)** (`make check`, constitution, governance ADRs).
