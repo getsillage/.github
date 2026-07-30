@@ -28,4 +28,11 @@ No multi-user collaboration, no public profiles, no official hosted service — 
 - [Documentation](https://github.com/getsillage/sillage/tree/main/docs)
 - [Deployment](https://github.com/getsillage/sillage/blob/main/docs/user/deployment.md)
 - [AI & privacy](https://github.com/getsillage/sillage/blob/main/docs/user/ai.md)
+- [Engineering governance](https://github.com/getsillage/sillage/blob/main/docs/development/governance.md) (verification, contribution tracks, standards registry)
 - License: [MIT](https://github.com/getsillage/sillage/blob/main/LICENSE)
+
+## Org notes
+
+- **Product norms and CI live in [sillage](https://github.com/getsillage/sillage)** (`make check`, constitution, governance ADRs).
+- **Website** is a separate static marketing site; it should keep the same one-line product description and privacy claims as the monorepo READMEs, but may use a simpler toolchain.
+- Security reports follow the monorepo [Security Policy](https://github.com/getsillage/sillage/blob/main/SECURITY.md), not this profile repository.
