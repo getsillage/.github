@@ -20,6 +20,13 @@ Short brand line:
 
 The canonical descriptions should appear verbatim in primary repository, website, release, and organization surfaces. Supporting copy may be shorter, but it must preserve the self-hosted, single-user, private-record, and source-grounded boundaries.
 
+## Canonical website
+
+- Public website: [https://getsillage.github.io/](https://getsillage.github.io/)
+- Source repository: [`getsillage/getsillage.github.io`](https://github.com/getsillage/getsillage.github.io)
+- User-facing website links must use the root URL. Source, contribution, and repository links must use the source repository URL.
+- Do not append a repository-name path to the public website URL.
+
 ## Naming and terminology
 
 - The product name is always `Sillage`; do not translate or restyle it as `SILLAGE` in normal prose.
@@ -93,6 +100,7 @@ Before publishing a repository page, website update, release note, announcement,
 - AI is described as optional, configured by the operator, and source-grounded;
 - data-location language remains accurate for both local and remote self-hosted instances;
 - links point to the canonical deployment, data, AI, support, and security documents;
+- public website and website-source links follow the canonical website rules above;
 - English and Simplified Chinese claims stay semantically aligned;
 - screenshots use synthetic data and contain no tokens, hostnames, real records, or personal information;
 - version, compatibility, upgrade, rollback, and support claims match the current release evidence.

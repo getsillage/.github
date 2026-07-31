@@ -47,7 +47,7 @@ Open `http://localhost:5231` and create the instance's only account. See the [de
 | Project | Purpose |
 | --- | --- |
 | [sillage](https://github.com/getsillage/sillage) | Product monorepo: Go backend, embedded React Web app, Android client, documentation, and releases |
-| [getsillage.github.io](https://github.com/getsillage/getsillage.github.io) | Bilingual product website and deployment entry point |
+| [getsillage.github.io](https://github.com/getsillage/getsillage.github.io) | Source and deployment entry point for the canonical bilingual website at [getsillage.github.io](https://getsillage.github.io/) |
 | [.github](https://github.com/getsillage/.github) | Organization profile, shared community health files, and [brand/content standards](https://github.com/getsillage/.github/blob/main/BRAND.md) |
 
 ## Product resources

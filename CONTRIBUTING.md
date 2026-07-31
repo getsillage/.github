@@ -1,6 +1,6 @@
 # Contributing to Sillage
 
-Thank you for helping improve Sillage. Product code, documentation, architecture, and release work belong in [`getsillage/sillage`](https://github.com/getsillage/sillage); website work belongs in [`getsillage/getsillage.github.io`](https://github.com/getsillage/getsillage.github.io).
+Thank you for helping improve Sillage. Product code, documentation, architecture, and release work belong in [`getsillage/sillage`](https://github.com/getsillage/sillage). The canonical public website is [https://getsillage.github.io/](https://getsillage.github.io/), and its source and website contributions belong in [`getsillage/getsillage.github.io`](https://github.com/getsillage/getsillage.github.io).
 
 Before opening a change:
 
