@@ -1,0 +1,58 @@
+name: Bug report
+description: Report a reproducible problem in a Sillage organization repository.
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Use synthetic data and remove records, credentials, hostnames, tokens, and other sensitive information.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository and version
+      description: Name the repository and release, commit, or deployment you tested.
+      placeholder: getsillage/sillage v0.3.0
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest reliable sequence using synthetic data.
+      placeholder: |
+        1. Start...
+        2. Open...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, browser or Android version, container runtime, and relevant sanitized configuration.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Data safety
+      options:
+        - label: I removed private records, credentials, tokens, hostnames, and other sensitive data.
+          required: true
+        - label: This is not a vulnerability report.
+          required: true

@@ -1,0 +1,46 @@
+name: Support question
+description: Ask a sanitized setup, configuration, or usage question.
+title: "question: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Support is best effort. Do not include private records, database contents, credentials, API keys, tokens, public hostnames, or other sensitive data.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository and version
+      placeholder: getsillage/sillage v0.3.0
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried?
+      description: Link the documentation you followed and include sanitized commands or errors.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, runtime, browser or Android version, and sanitized configuration.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Data safety
+      options:
+        - label: I removed private records, credentials, tokens, hostnames, and other sensitive data.
+          required: true
+        - label: This is not a vulnerability report.
+          required: true

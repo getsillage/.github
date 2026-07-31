@@ -1,0 +1,43 @@
+name: Feature request
+description: Propose an improvement within Sillage's product scope.
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sillage is a private, self-hosted, single-user record space. Multi-user collaboration, social publishing, public profiles, tags, task management, and an official hosted service are outside the current scope.
+  - type: input
+    id: repository
+    attributes:
+      label: Target repository
+      placeholder: getsillage/sillage
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user need without prescribing an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should become clearer, safer, or easier?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Product-scope fit
+      description: Explain how the proposal preserves private, single-user, writing-first use.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Include workflows, documentation changes, or smaller solutions you considered.
