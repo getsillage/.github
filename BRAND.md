@@ -81,7 +81,7 @@ Do not publish performance, privacy, security, compatibility, or support claims 
 Use these descriptions on GitHub and other directory surfaces:
 
 - `getsillage/sillage`: `Self-hosted, single-user space for private records, history review, and AI answers grounded in your own notes.`
-- `getsillage/website`: `Bilingual product website for Sillage, with product guidance and a Docker quick start.`
+- `getsillage/getsillage.github.io`: `Bilingual product website for Sillage, with product guidance and a Docker quick start.`
 - `getsillage/.github`: `Organization profile, shared community health files, and Sillage brand standards.`
 
 ## Public content checklist

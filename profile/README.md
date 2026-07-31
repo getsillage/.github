@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://getsillage.github.io/website"><img src="https://img.shields.io/badge/Website-244E47?style=flat-square" alt="Website" /></a>
+  <a href="https://getsillage.github.io/"><img src="https://img.shields.io/badge/Website-244E47?style=flat-square" alt="Website" /></a>
   <a href="https://github.com/getsillage/sillage/releases"><img src="https://img.shields.io/github/v/release/getsillage/sillage?display_name=tag&style=flat-square" alt="Latest release" /></a>
   <a href="https://github.com/getsillage/sillage/pkgs/container/sillage"><img src="https://img.shields.io/badge/Container-ghcr.io-244E47?style=flat-square&logo=docker" alt="Container image" /></a>
   <a href="https://github.com/getsillage/sillage/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-F59E0B?style=flat-square" alt="MIT License" /></a>
@@ -47,7 +47,7 @@ Open `http://localhost:5231` and create the instance's only account. See the [de
 | Project | Purpose |
 | --- | --- |
 | [sillage](https://github.com/getsillage/sillage) | Product monorepo: Go backend, embedded React Web app, Android client, documentation, and releases |
-| [website](https://github.com/getsillage/website) | Bilingual product website and deployment entry point |
+| [getsillage.github.io](https://github.com/getsillage/getsillage.github.io) | Bilingual product website and deployment entry point |
 | [.github](https://github.com/getsillage/.github) | Organization profile, shared community health files, and [brand/content standards](https://github.com/getsillage/.github/blob/main/BRAND.md) |
 
 ## Product resources
