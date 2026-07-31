@@ -2,6 +2,8 @@
 
 This guide is the organization-wide source of truth for public positioning, naming, visual identity, and release-facing content. Product behavior remains defined by the `sillage` repository's product guidance and code.
 
+Application and documentation copy follows the [Sillage Content Design Guidelines](https://github.com/getsillage/sillage/blob/main/docs/development/content-design.md).
+
 ## Positioning
 
 Canonical English description:
@@ -26,6 +28,7 @@ The canonical descriptions should appear verbatim in primary repository, website
 - `memo` is an implementation term and must not appear in public product copy.
 - Use `self-hosted` and `single-user` with hyphens when they modify a noun.
 - Describe AI as optional and source-grounded. Never imply that Sillage includes a model, validates psychological conclusions, or can infer personal facts without records.
+- Distinguish `this device`, the `Sillage server`, the `machine running Sillage`, the `data directory`, and the user's `configured AI endpoint`. Do not use `cloud` as a generic name for a self-hosted Sillage server.
 
 ## Voice
 
@@ -88,6 +91,7 @@ Before publishing a repository page, website update, release note, announcement,
 - product name and terminology match this guide;
 - the self-hosted and single-user boundaries remain clear;
 - AI is described as optional, configured by the operator, and source-grounded;
+- data-location language remains accurate for both local and remote self-hosted instances;
 - links point to the canonical deployment, data, AI, support, and security documents;
 - English and Simplified Chinese claims stay semantically aligned;
 - screenshots use synthetic data and contain no tokens, hostnames, real records, or personal information;
