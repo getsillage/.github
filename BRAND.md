@@ -20,6 +20,14 @@ Short brand line:
 
 The canonical descriptions should appear verbatim in primary repository, website, release, and organization surfaces. Supporting copy may be shorter, but it must preserve the self-hosted, single-user, private-record, and source-grounded boundaries.
 
+## GitHub organization profile
+
+- Display name: `Sillage`
+- Description: `Self-hosted, single-user space for private records, history review, and AI answers grounded in your own notes.`
+- Website: `https://getsillage.github.io/`
+
+These values are exact organization-profile metadata, not optional examples.
+
 ## Canonical website
 
 - Public website: [https://getsillage.github.io/](https://getsillage.github.io/)
